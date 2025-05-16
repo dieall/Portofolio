@@ -124,8 +124,7 @@ const Main = ({ theme }) => {
 
 
         <p className="max-w-[600px] mt-4 text-sm">
-  I’m a full-stack MERN developer specializing in building and occasionally
-  designing exceptional digital experiences. Currently, I’m working as a Software Engineer - I at G7CR Technologies and focused on building responsive full-stack web applications.
+        I am someone who loves to learn and loves challenges. Currently, I am studying at ITENAS majoring in informatics in semester 4. I have experience working at angkringan Cilaki 127 for 3 months and working at a Software house for 5 months and working at a network company for 2 years. And currently I am doing an Internship at PT Timah Industri for 8 months. I have the ability to create programs and network implementations. The field of work that I am interested in is becoming a programmer and IT support.
 </p>
 
 
