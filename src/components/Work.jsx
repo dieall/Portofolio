@@ -4,8 +4,7 @@ import Typewriter from "typewriter-effect";
 import poliklinik from "../../src/assets/projects/poliklinik.png"
 import { GrBitcoin } from 'react-icons/gr';
 import lelang from "../../src/assets/projects/lelang.png"
-import twitter from "../assets/projects/twitter.png"
-import { ImTwitter } from 'react-icons/im';
+import toko from "../assets/projects/toko.png"
 
 
 const Work = ({theme}) => {
@@ -156,10 +155,10 @@ const Work = ({theme}) => {
    {/* 4card  */}
    <div className= {theme? "m-3 p-2 flex flex-col text-black items-center justify-center shadow-md shadow-[#040c16] scale-95 hover:scale-100 hover:text-white  hover:bg-slate-800 duration-150 cursor-pointer "
    : "m-3 p-2 flex flex-col  items-center justify-center shadow-md shadow-[#040c16] scale-95 hover:scale-100  hover:bg-slate-800 duration-150 cursor-pointer "}>  
-               <img src={twitter} alt="" className="h-120"></img>
-                     <p className="m-2 p-2 font-bold flex items-center gap-2"> <ImTwitter size={30}/> Twitter Clone <ImTwitter size={30}/> </p>
+               <img src={toko} alt="" className="h-120"></img>
+                     <p className="m-2 p-2 font-bold flex items-center gap-2"> Aplikasi Toko Sejahtera </p>
                
-               <p className="p-2 font-bold text-center">Small Project Only FrontEnd - CSS </p>
+               <p className="p-2 font-bold text-center">Laravel , Bootstrap , CSS , HTML , JS </p>
                       
                       {/* buttons */}
                 <div className="flex items-center justify-center mt-2 ">
