@@ -42,9 +42,9 @@ const Work = ({theme}) => {
    : "m-3 p-2 flex flex-col  items-center justify-center shadow-md shadow-[#040c16] scale-95 hover:scale-100  hover:bg-slate-800 duration-150 cursor-pointer "} >  
                <img src={saranjana} alt="" className="h-120"></img>
 
-               <p className="m-2 p-2 font-bold flex items-center gap-2"> <GrBitcoin size={25}/> Crypto API Project <GrBitcoin size={25} /> </p>
+               <p className="m-2 p-2 font-bold flex items-center gap-2">City Saranjana</p>
                
-               <p className="p-2 font-bold text-center">React js ,Tailwind css , CoingeckoAPI</p>
+               <p className="p-2 font-bold text-center">Dev C++ ,CSS , Code Block</p>
                
              
                       
