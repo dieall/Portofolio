@@ -6,6 +6,8 @@ import react from "../../src/assets/react.png"
 import tailwind from "../../src/assets/tailwind.png"
 import node from "../../src/assets/node.png"
 import php from "../../src/assets/php.png"
+import laravel from "../../src/assets/laravel.png"
+import codeigniter from "../../src/assets/codeigniter.png"
 import Typewriter from "typewriter-effect";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
@@ -91,15 +93,15 @@ const Skills = ({theme}) => {
          </div>
          <div className="m-7 p-12 flex flex-col items-center justify-center shadow-md shadow-[#040c16] hover:scale-110 duration-150 cursor-pointer">  
          <AnimationOnScroll initiallyVisible={true} animateIn="animate__tada">
-               <img src={javascript} alt="" className="h-20"></img>
+               <img src={laravel} alt="" className="h-20"></img>
                </AnimationOnScroll>
                <p className="mt-2">LARAVEL</p>  
          </div>
          <div className="m-7 p-12 flex flex-col items-center justify-center shadow-md shadow-[#040c16] hover:scale-110 duration-150 cursor-pointer">  
          <AnimationOnScroll initiallyVisible={true} animateIn="animate__tada">
-               <img src={javascript} alt="" className="h-20"></img>
+               <img src={codeigniter} alt="" className="h-20"></img>
                </AnimationOnScroll>
-               <p className="mt-2">JAVASCRIPT</p>  
+               <p className="mt-2">CODEIGNITER</p>  
          </div>   
 
 

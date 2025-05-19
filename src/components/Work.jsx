@@ -1,5 +1,5 @@
 import React from "react";
-import crypto from "../../src/assets/projects/crypto.png";
+import saranjana from "../../src/assets/saranjana.png";
 import Typewriter from "typewriter-effect";
 import movie from "../../src/assets/projects/movie.png"
 import { GrBitcoin } from 'react-icons/gr';
@@ -40,7 +40,7 @@ const Work = ({theme}) => {
         {/* 1card  */}
    <div className= {theme? "m-3 p-2 flex flex-col text-black items-center justify-center shadow-md shadow-[#040c16] scale-95 hover:scale-100 hover:text-white  hover:bg-slate-800 duration-150 cursor-pointer "
    : "m-3 p-2 flex flex-col  items-center justify-center shadow-md shadow-[#040c16] scale-95 hover:scale-100  hover:bg-slate-800 duration-150 cursor-pointer "} >  
-               <img src={crypto} alt="" className="h-120"></img>
+               <img src={saranjana} alt="" className="h-120"></img>
 
                <p className="m-2 p-2 font-bold flex items-center gap-2"> <GrBitcoin size={25}/> Crypto API Project <GrBitcoin size={25} /> </p>
                
