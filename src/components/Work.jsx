@@ -5,6 +5,7 @@ import poliklinik from "../../src/assets/projects/poliklinik.png"
 import { GrBitcoin } from 'react-icons/gr';
 import lelang from "../../src/assets/projects/lelang.png"
 import toko from "../assets/projects/toko.png"
+import film from "../assets/projects/film.png"
 
 
 const Work = ({theme}) => {
@@ -194,11 +195,11 @@ const Work = ({theme}) => {
       {/* 5card  */}
       <div className= {theme? "m-3 p-2 flex flex-col text-black items-center justify-center shadow-md shadow-[#040c16] scale-95 hover:scale-100 hover:text-white  hover:bg-slate-800 duration-150 cursor-pointer "
    : "m-3 p-2 flex flex-col  items-center justify-center shadow-md shadow-[#040c16] scale-95 hover:scale-100  hover:bg-slate-800 duration-150 cursor-pointer "}>  
-               <img src='/images/lib.png' alt="" className="h-120"></img>
+                <img src={film} alt="" className="h-120"></img>
 
-               <p className="m-2 p-2 font-bold flex items-center gap-2"> <GrBitcoin size={25}/> Library Management System <GrBitcoin size={25} /> </p>
+               <p className="m-2 p-2 font-bold flex items-center gap-2">Rebahan Movie </p>
                
-               <p className="p-2 font-bold text-center">React js , Custom Css</p>
+               <p className="p-2 font-bold text-center">React js , Tailwind Css , Node JS</p>
                       
                       {/* buttons */}
                 <div className="flex items-center justify-center mt-2 ">
